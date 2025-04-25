@@ -19,6 +19,15 @@
 
 // console.log(fac(5))
 
-if (true || false) {
-    console.log("enter in if conditon")
+// if (true || false) {
+//     console.log("enter in if conditon")
+// }
+const numbers = [3, 9, 15, 21, 30, 33, 51, 72, 99];
+
+function magicNumber(num) {
+    if (num > 10) {
+        console.log(numbers);
+
+    }
 }
+magicNumber(numbers);
